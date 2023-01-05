@@ -1,0 +1,1 @@
+import Widget from"./Widget.js";const container=document.querySelector(".container"),widget=new Widget(container);widget.bindToDOM();
