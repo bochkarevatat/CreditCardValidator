@@ -1,0 +1,94 @@
+  .container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  
+  .cards-container {
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  ul {
+    margin-top: 1.5rem;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+  }
+  .card {
+    width: 50px;
+    height: 31px;
+    margin-right: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid rgb(102, 22, 22);
+    border-radius: 5px;
+  }
+.visa {
+background-image:url(../img/visa_curved.png);
+}
+
+.master {
+    background-image:url(../img/mastercard.png);
+    }
+
+.mir {
+        background-image:url(../img/mir.png);
+        }
+
+.discover {
+            background-image:url(../img/discover.png);
+            }
+
+.jcb {
+                background-image:url(../img/jcb.png);
+                }
+
+.input {
+    display: inline-block;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+
+.contact-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    max-width: 500px;;
+}
+
+.form-validate{
+    display: block;
+    box-sizing: border-box;
+    width: 350px;
+    margin-left: 20px;
+    padding: 10px;
+    background-color: #5cb85c;
+    border: 1px solid rgb(53, 49, 49);
+    border-radius: 5px;
+    color: #fff; 
+    display: flex;
+    flex-wrap: nowrap
+}
+
+ .button-validate{
+    background-color: #5cb85c;
+    border: 1px solid rgb(245, 241, 241);
+    border-radius: 5px;
+    width: 250px;
+    color: #fff; 
+    margin-left: 20px;
+} 
+.hidden-card {
+    opacity: 0.5;
+  }
